@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Now</title>
+</head>
+<style>
+    .miniwin {
+        width: 766px;
+        height: 727px;
+        background-color: white;
+        margin-left: 19px;
+        border-radius: 53px;
+    }
+
+    .miniwin h1 {
+        text-align: center;
+        font-family: "Calisto MT";
+        padding-top: -42px;
+    }
+
+    .name {
+        padding-top: 45px;
+        margin-left: 40px;
+        font-family: "Calisto MT";
+        font-size: 20px;
+    }
+
+    .phno {
+        padding-top: 74px;
+        margin-left: 40px;
+        font-family: "Calisto MT";
+        font-size: 20px;
+    }
+
+    .vcolor {
+        padding-top: 87px;
+        margin-left: 40px;
+        font-family: "Calisto MT";
+        font-size: 20px;
+    }
+
+    .city {
+        padding-top: 92px;
+        margin-left: 40px;
+        font-family: "Calisto MT";
+        font-size: 20px;
+    }
+
+    input[type="submit"] {
+        margin: 42px 248px;
+        width: 206px;
+        font-family: "Calisto MT";
+        font-size: 20px;
+        background-color: white;
+
+    }
+
+    .exceptsubmit input {
+        width: 350px;
+        margin-left: 59px;
+    }
+
+    select {
+        width: 360px;
+        margin-left: 41px;
+    }
+
+    .reserveimg img {
+        width: 706px;
+        float: right;
+        margin-top: -713px;
+        height: 703px;
+
+    }
+
+    .miniwin img {
+        width: 250px;
+        padding: 16px;
+    }
+
+    button {
+        margin-left: 313px;
+        background-color: black;
+    }
+
+    a {
+        font-size: 20px;
+        font-family: "Calisto MT";
+        color: white;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: white
+    }
+
+    a:hover {
+        color: aquamarine
+    }
+</style>
+
+<body bgcolor="black">
+    <div class="miniwin">
+        <img src="Logo.jpeg">
+        <h1>Reserve Now</h1>
+        <form action="https://easypay.axisbank.co.in/">
+            <div class="exceptsubmit">
+                <div class="name">
+                    <label>Enter your Name: <input type="text" required></label>
+                </div>
+                <div class="phno">
+                    <label>Enter your Ph.no: <input type="number" required></label>
+                </div>
+                <div class="vcolor">
+                    <label>Choose Your Color:
+                        <select name="scootecolor" width="360px" required>
+                            <option value="">(select one)</option>
+                            <option value="1">Red</option>
+                            <option value="2">Yellow</option>
+                            <option value="3">Porcelian White</option>
+                            <option value="4">Matt Black</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="city">
+                    <label>Enter your City: <input type="text" required></label>
+                </div>
+            </div>
+            <div class="pay">
+                <input type="submit" value="Reserve for ₹ 500/-">
+            </div>
+            <button><a href="Vought e-Bikes.html">BACK</a></button>
+        </form>
+
+
+
+    </div>
+
+    <div class="reserveimg">
+        <img src="riding.jpg" align="right">
+    </div>
+
+</body>
+
+</html>

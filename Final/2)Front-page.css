@@ -1,0 +1,262 @@
+/*Front page*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.butt button {
+    margin-left: 80rem;
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    border-radius: 11px;
+    background-color: black;
+    margin-top: 63rem;
+}
+
+.image img {
+    position: absolute;
+    width: 360px;
+    margin: 15px;
+}
+
+.task {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+video {
+    margin-top: 101px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    padding: 0 47px;
+    right: 0px;
+}
+
+.task ul {
+    text-align: right;
+    margin-top: 39px;
+}
+
+a {
+    font-size: 20px;
+    font-family: "Calisto MT";
+    color: white;
+    text-decoration: none;
+}
+
+.d1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: aquamarine
+}
+
+/* Performance*/
+
+.d1 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.d1 img {
+    height: 357px;
+    margin-top: 115px;
+    margin-left: 65px;
+    border-radius: 51px;
+}
+
+
+#per {
+    height: 300px;
+    margin-left: 866px;
+    margin-top: -306px;
+    border-radius: 0%;
+}
+
+h1 {
+    margin-left: 502px;
+    margin-top: -461px;
+    font-size: 90px;
+    font-family: "CastellaLucida Sans Unicoder";
+    color: #b8b8b88f;
+}
+
+.best {
+    padding-top: 228px;
+    padding-left: 455px;
+    font-size: 46px;
+    font-family: "Calisto MT";
+}
+
+#underl {
+    padding-top: 229px;
+    padding-left: 5px;
+    font-size: 37px;
+
+}
+
+#green {
+    width: 249px;
+    height: 3px;
+    margin-left: 76px;
+    margin-top: 1px;
+    margin-bottom: -9px;
+    background-color: greenyellow;
+}
+
+#speed img {
+    display: inline;
+    height: 50px;
+    width: 50px;
+    margin-top: 33px;
+    padding-left: 396px;
+}
+
+#s1 img {
+    height: 50px;
+    width: 50px;
+    margin-top: -7px;
+    padding-left: 396px;
+}
+
+#s2 img {
+    height: 42px;
+    width: 43px;
+    margin-top: 13px;
+    padding-left: 396px;
+}
+
+.t1 {
+    margin-top: -144px;
+    padding-left: 522px;
+}
+
+.t2 {
+    margin-top: 34px;
+    padding-left: 522px;
+}
+
+.t3 {
+    margin-top: 39px;
+    padding-left: 522px;
+}
+
+/* specifications and subsidy*/
+
+.a1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 239, 239);
+}
+
+.caption {
+    font-size: 47px;
+    font-family: "Calisto MT";
+    margin-left: 55rem;
+    margin-top: 58px;
+}
+
+.a1 hr {
+    width: 376px;
+    height: 6px;
+    background-color: greenyellow;
+    margin-top: -2px;
+    margin-right: 372px;
+}
+
+th {
+    padding-right: -12px;
+    padding-top: 45px;
+    font-size: 35px;
+    font-weight: bold;
+    border: 2px solid rgb(199, 194, 194);
+
+
+}
+
+td {
+    font-size: 20px;
+    border: 2px solid rgb(199, 194, 194);
+    text-align: center;
+    padding: 35px;
+}
+
+.a1 table {
+    padding-right: 110px;
+}
+
+.cost table {
+    margin-top: -620px;
+    margin-left: 20px;
+}
+
+tbody {
+    background-color: rgb(140, 231, 199);
+}
+
+thead {
+    background-color: rgb(0, 255, 166);
+}
+
+.gif img {
+    position: absolute;
+    height: 577px;
+    width: 490px;
+    padding-left: 12px;
+    margin-top: -681px;
+    border-radius: 39px;
+}
+
+.cost_heading {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.cost_heading p {
+    font-size: 37px;
+    font-family: "Calisto MT";
+    margin: 3px 0 2px 82px;
+    color: white;
+}
+
+.cost_heading hr {
+    width: 331px;
+    height: 6px;
+    background-color: greenyellow;
+    margin-left: 89px;
+}
+
+.costimg img {
+    width: 808px;
+    height: 693px;
+    justify-content: right;
+    margin-left: 684px;
+    margin-top: -712px;
+}
+
+.costimg button {
+    margin-left: 80rem;
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    border-radius: 11px;
+    background-color: black;
+    margin-top: -43rem;
+}

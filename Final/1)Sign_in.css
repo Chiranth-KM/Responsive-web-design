@@ -1,0 +1,71 @@
+img {
+    width: 360px;
+
+}
+
+.color {
+    width: 99%;
+    height: 86vh;
+    background-color: rgb(210, 207, 207);
+    position: absolute;
+}
+
+.white {
+    width: 467px;
+    height: 548px;
+    background-color: white;
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 549px;
+    border-radius: 50px;
+    border: 3px solid;
+}
+
+.content {
+    margin-top: 102px;
+    margin-left: 706px;
+    position: absolute;
+    font-size: 54px;
+    font-family: "Calisto MT";
+}
+
+.email {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 264px;
+    margin-left: 589px;
+}
+
+.pass {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 379px;
+    margin-left: 589px;
+}
+
+#ip1 {
+    position: absolute;
+    width: 381px;
+    height: 27px;
+    margin-top: 320px;
+    margin-left: 590px;
+    background-color: #e7e3e3;
+}
+
+#ip2 {
+    position: absolute;
+    width: 381px;
+    height: 27px;
+    margin-top: 431px;
+    margin-left: 590px;
+    background-color: #e7e3e3;
+}
+
+#ip3 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #69fd69;
+    margin-top: 517px;
+    margin-left: 693px;
+}
